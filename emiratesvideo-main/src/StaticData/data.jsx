@@ -2,6 +2,8 @@ export const generateImgPath = (path) => {
   return window.origin + import.meta.env.VITE_URL + path;
 };
 
+
+//lesson data
 export const lessonDays = [
   {
     image: "https://i.postimg.cc/tTHs5gmh/1-kun.jpg",

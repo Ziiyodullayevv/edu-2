@@ -34,7 +34,7 @@ export const lessonDays = [
     title: "Broker Tanlash",
     children: [
       {
-        title: "Lot & Hajm",
+        title: "Broker Haqida Ma'lumot",
         url: "https://vimeo.com/981390511",
       },
       {

@@ -6,14 +6,13 @@ import CustomButton from "../CustomButton";
 
 // swiper
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Thumbs } from "swiper";
+import { Navigation, Thumbs, Autoplay } from "swiper";
 
 // Redux Selector / Action
 import { useSelector } from "react-redux";
 import { theme_scheme_direction } from "../../store/setting/selectors";
 
 // the hook
-import { useTranslation } from "react-i18next";
 
 const OttHeroSlider = memo(() => {
   const themeSchemeDirection = useSelector(theme_scheme_direction);
@@ -145,7 +144,7 @@ const OttHeroSlider = memo(() => {
                           : null,
                     }}
                     autoplay={{
-                      delay: 1000,
+                      delay: 3000,
                       // disableOnInteraction: true,
                     }}
                     direction="horizontal"
@@ -167,7 +166,7 @@ const OttHeroSlider = memo(() => {
                       },
                     }}
                     watchSlidesProgress={true}
-                    modules={[Navigation, Thumbs]}
+                    modules={[Navigation, Thumbs, Autoplay]}
                     className="swiper-horizontal swiper-container mb-0"
                     id="responsive-rtl-swiper"
                   >
@@ -249,7 +248,7 @@ const OttHeroSlider = memo(() => {
                   <SwiperSlide
                     key={item.id}
                     className="p-0"
-                    id="1"
+                    id={item.id}
                     data-swiper-slide-index="0"
                   >
                     <div className="slider--image block-images">

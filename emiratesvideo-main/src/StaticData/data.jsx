@@ -227,11 +227,11 @@ export const lessonDays = [
     title: "Fibonacci",
     children: [
       {
-        title: "Fibonacci (1 - qism)",
+        title: "Fibonacci",
         url: "https://vimeo.com/982613345",
       },
       {
-        title: "Fibonacci (2 - qism)",
+        title: "Fibonacci (Backtext)",
         url: "https://vimeo.com/982637212",
       },
     ],
@@ -243,11 +243,11 @@ export const lessonDays = [
     title: "Prop Trading",
     children: [
       {
-        title: "Prop Trading (1 - qism)",
+        title: "Prop Trading",
         url: "https://vimeo.com/982656980",
       },
       {
-        title: "Prop Trading (2 - qism)",
+        title: "HFT Prop Firms",
         url: "https://vimeo.com/982664517",
       },
     ],
@@ -259,11 +259,11 @@ export const lessonDays = [
     title: "Tizim Yaratish",
     children: [
       {
-        title: "Tizim Yaratish (1 - qism)",
+        title: "Tizim Yaratish",
         url: "https://vimeo.com/982667192",
       },
       {
-        title: "Tizim Yaratish (2 - qism)",
+        title: "Tizim (NFP CPI Formc)",
         url: "https://vimeo.com/982673583",
       },
     ],
@@ -275,7 +275,7 @@ export const lessonDays = [
     title: "Meeting 2",
     children: [
       {
-        title: "Meeting 2",
+        title: "Tizimsiz Savdo Oqibatlar",
         url: "https://vimeo.com/982678852",
       },
     ],
@@ -287,7 +287,7 @@ export const lessonDays = [
     title: "Real Account",
     children: [
       {
-        title: "Real Account",
+        title: "Real Hisob Ochish",
         url: "https://vimeo.com/982682845",
       },
     ],
@@ -299,7 +299,7 @@ export const lessonDays = [
     title: "Payout Verifecation",
     children: [
       {
-        title: "Payout Verification",
+        title: "Payout",
         url: "https://vimeo.com/982687585",
       },
     ],
@@ -355,7 +355,7 @@ export const lessonDays = [
         url: "https://vimeo.com/982728442",
       },
       {
-        title: "Moliya Birjalari 1 - qism",
+        title: "Yordamchi Robotlar",
         url: "https://vimeo.com/982732536",
       },
     ],

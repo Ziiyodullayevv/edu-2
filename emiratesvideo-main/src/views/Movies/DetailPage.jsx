@@ -11,9 +11,6 @@ import { Link, useParams } from "react-router-dom";
 //function
 import { lessonDays } from "../../StaticData/data";
 
-//utilites
-import { useEnterExit } from "../../utilities/usePage";
-
 // the hook
 
 const MovieDetail = memo(() => {
